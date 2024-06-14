@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+body {
+
+color: black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+max-width: 1300px;
+margin: auto;
+padding: 15px;
+background-color: rgb(198, 200, 202);
+width: 90%;
+
+}
+
+header {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(161, 160, 160);
+box-shadow: 1px 2px 3px black;
+padding: 10px;
+padding-right: 40px;
+border-radius: 10px 0px;
+
+}
+#title{
+
+    flex-direction: column;
+    line-height: 10px;
+    background-color: rgb(161, 160, 160);
+    padding: 20px;
+    box-shadow: 1px 2px 3px black;
+}
+
+
+#titulo1 {
+font-size: 50px;
+color: orange;
+text-shadow: 1px 2px 1px black;
+
+}
+li {
+
+display: inline-block;
+padding: 15px;
+
+
+
+}
+a {
+
+color: black;
+font-weight: 500;
+
+}
+a:hover {
+
+color: rgb(241, 202, 95);
+text-shadow: 1px 2px 3px black;
+font-weight: 500;
+
+
+}
+#botao-cima {
+
+border: 1px solid black;
+padding: 10px;
+font-weight: bolder;
+text-shadow: none;
+box-shadow: 3px 2px 5px black;
+color: orange;
+background-color: black;
+border-radius: 6px;
+
+}
+#botao-cima:hover {
+
+color: black;
+background-color:orange;
+border-radius: 9px;
+
+}
+
+main {
+
+display: flex;
+flex-direction: row;
+margin-top: 60px;
+
+}
+h2 {
+
+font-size: 40px;
+margin-bottom: 10px;
+
+
+}
+span {
+
+color: orange;
+text-shadow: 1px 2px 1px black;
+
+}
+p {
+
+font-size: 20px;
+line-height: 25px;
+max-width: 600px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img{
+min-width: 400px;
+width: 700px;
+border: 1px solid black;
+box-shadow: 3px 2px 5px black;
+margin-left: 20px;
+
+}
+form {
+
+display: flex;
+flex-direction: column;
+width: 70%;
+
+}
+input {
+
+height: 30px;
+padding: 5px;
+margin: 4px;
+border-radius: 8px;
+font-size: 16px;
+
+}
+form [type="submit"] {
+
+    height: 50px;
+    width: 50%;
+    background-color: rgb(226, 151, 11);
+    color: black;
+    font-weight: bolder;
+    margin: 10px auto;
+
+    }
+    form [type="submit"]:hover {
+    
+    cursor: pointer;
+   
+    border: 3px solid black;
+    
+    }
+    .rede{
+
+margin-top: -10px;
+
+    }
+
+
+
